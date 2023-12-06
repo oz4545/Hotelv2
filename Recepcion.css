@@ -1,0 +1,85 @@
+/* Estilos adicionales para el formulario de reservas */
+.reservation-form {
+    max-width: 600px;
+    margin: 0 auto; /* Centrar horizontalmente */
+    text-align: left; /* Justificar a la izquierda */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 50px; /* Ajusta según sea necesario */
+}
+
+.reservation-form h2 {
+    text-align: center; /* Centrar el título */
+}
+
+.reservation-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.reservation-form select,
+.reservation-form input[type="text"],
+.reservation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.reservation-form input[type="submit"] {
+    background-color: #428bca;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservation-form input[type="submit"]:hover {
+    background-color: #3071a9;
+}
+
+
+/* Estilos para el botón combinado */
+.combined-btn {
+    background-color: #428bca;
+    color: #fff;
+    padding: 6px 10px; /* Tamaño reducido en comparación con el botón de reserva */
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Espacio entre los botones */
+}
+
+.combined-btn:hover {
+    background-color: #3071a9;
+}
+
+/* Ubicación en la parte inferior izquierda */
+.checkout-btn {
+    position: center;
+    bottom: 20px;
+    left: 20px;
+}
+
+.volver-btn {
+    position: center;
+    bottom: 20px;
+    left: 120px; /* Ajusta según sea necesario */
+}
+
+.combined-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.combined-btn:hover {
+    background-color: #2980b9;
+}

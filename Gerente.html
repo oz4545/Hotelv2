@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <title>Personal - Hotel Colombia</title>
+    <link href="main.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="Gerente.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="header-top-nav">
+        <ul class="nav nav-pills nav-fill bg-dark">
+            <li><a href="Home.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de nosotros</a></li>
+            <li><a href="Services.html">Servicios y políticas</a></li>
+            <li><a href="login.html">Acceder</a></li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Cuentas de Empresas</h2>
+        <form action="#" method="post">
+
+            <label for="Nombre">Nombre de la empresa:</label>
+            <input type="text" id="Nombre" name="Nombre" required>
+
+            <label for="Numero">Numero de empleados:</label>
+            <input type="text" id="Numero" name="Numero" required>
+
+            <label for="descuento">Tipo de Descuento por Habitación(es):</label>
+            <input type="text" id="descuento" name="descuento" required>
+
+            <label for="apertura">Fecha de Apertura de Cuenta:</label>
+            <input type="date" id="apertura" name="apertura" required>
+
+            <label for="cierre">Fecha de Cierre de Cuenta:</label>
+            <input type="date" id="cierre" name="cierre" required>
+
+            <input type="submit" value="Guardar">
+        </form>
+        <button class="generar-factura-btn">Generar Factura</button>
+    </div>
+
+    <div >
+        <!-- Botón combinado para Checkout y Volver -->
+        <button class="combined-btn volver-button" onclick="window.location.href='personal.html'">Volver</button>
+    </div>
+
+    <div class="footer">
+        <div class="wrap">
+            <div class="contact-info"><a>Hotel Colombia</a></br>
+                <p class="phone">Llámanos: <a href="tel:3155555555">3155555555</a></p>
+                <p class="gpa">Ubicación: <a href="https://www.google.com/maps/d/viewer?mid=1IAuIUWS_vkBhpJoXIg-FW_uU3rc&hl=en_US&ll=2.442174952832031%2C-76.6043237&z=16" target="_blank">Turismo Popayán</a></p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>

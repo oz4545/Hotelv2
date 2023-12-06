@@ -1,0 +1,26 @@
+.RuleList {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+text-align: absolute
+
+}
+/* Estilos para el contenido de las reglas */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+.content p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 26px;
+    color: #333; /* Color por defecto */
+    transition: color 0.3s ease; /* Transición para suavizar el cambio de color */
+}
+
+/* Cambio de color al pasar el mouse sobre el párrafo */
+.content p:hover {
+    color: red,blue,yellow;
+}
